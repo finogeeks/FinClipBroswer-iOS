@@ -1,0 +1,1076 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BDBEF7B2B6F9A8800314031 /* FinClipBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2BDBEF7A2B6F9A8800314031 /* FinClipBrowser.bundle */; };
+		2BDBEF882B6F9D4B00314031 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BDBEF8A2B6F9D4B00314031 /* Localizable.strings */; };
+		2E2AFCC429AC4F760056C21B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AFCC329AC4F760056C21B /* AppDelegate.m */; };
+		2E2AFCCA29AC4F760056C21B /* FCBPrivacyAgreementController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AFCC929AC4F760056C21B /* FCBPrivacyAgreementController.m */; };
+		2E2AFCCF29AC4F770056C21B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E2AFCCE29AC4F770056C21B /* Assets.xcassets */; };
+		2E2AFCD229AC4F770056C21B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2AFCD029AC4F770056C21B /* LaunchScreen.storyboard */; };
+		2E2AFCD529AC4F770056C21B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AFCD429AC4F770056C21B /* main.m */; };
+		2E2AFCDF29AC4F780056C21B /* FinClipBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AFCDE29AC4F780056C21B /* FinClipBrowserTests.m */; };
+		2E2AFCE929AC4F780056C21B /* FinClipBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AFCE829AC4F780056C21B /* FinClipBrowserUITests.m */; };
+		2E2AFCEB29AC4F780056C21B /* FinClipBrowserUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AFCEA29AC4F780056C21B /* FinClipBrowserUITestsLaunchTests.m */; };
+		2E2AFCF929AC5F5C0056C21B /* FCBMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AFCF829AC5F5C0056C21B /* FCBMainController.m */; };
+		2E2AFCFC29ADCB760056C21B /* FCBUITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AFCFB29ADCB760056C21B /* FCBUITool.m */; };
+		2E2AFCFF29ADD3460056C21B /* FCBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AFCFE29ADD3460056C21B /* FCBWebViewController.m */; };
+		2E2AFD0229ADD8780056C21B /* FCBConfigServerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AFD0129ADD8780056C21B /* FCBConfigServerController.m */; };
+		2E2AFD0429ADDFA70056C21B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2AFD0329ADDFA70056C21B /* WebKit.framework */; };
+		2E2AFD0C29AE0E640056C21B /* FCBQRCodeScanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AFD0729AE0E640056C21B /* FCBQRCodeScanController.m */; };
+		2E2AFD0D29AE0E640056C21B /* FCQRScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AFD0A29AE0E640056C21B /* FCQRScanView.m */; };
+		2E4BF8B429BB1E5300AB3550 /* FCBSMSLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4BF8B329BB1E5300AB3550 /* FCBSMSLoginController.m */; };
+		2E4BF8B729BB237F00AB3550 /* FCBVerificationCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4BF8B629BB237F00AB3550 /* FCBVerificationCodeController.m */; };
+		2E87176629AFB46600F7C635 /* FCBURLSessionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E87176529AFB46600F7C635 /* FCBURLSessionHelper.m */; };
+		2E87176829AFB7CF00F7C635 /* FCBDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E87176729AFB7CF00F7C635 /* FCBDefine.m */; };
+		2E87176D29AFBD5900F7C635 /* FCBLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E87176C29AFBD5900F7C635 /* FCBLoginController.m */; };
+		2E8F8F2429B635CF0026E256 /* NSString+FCBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F8F2329B635CF0026E256 /* NSString+FCBExtension.m */; };
+		2E8F8F2829B734010026E256 /* FCBUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F8F2729B734010026E256 /* FCBUserInfo.m */; };
+		2E8F8F2C29B73A8A0026E256 /* FCBMiniProgramModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F8F2B29B73A8A0026E256 /* FCBMiniProgramModel.m */; };
+		2E8F8F3029B7673A0026E256 /* FCBAppletHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F8F2F29B7673A0026E256 /* FCBAppletHelper.m */; };
+		2E8F8F3329B86DF50026E256 /* FCBAPP.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F8F3229B86DF50026E256 /* FCBAPP.m */; };
+		2E8F8F3C29B9B3B70026E256 /* FCBAccountLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F8F3B29B9B3B70026E256 /* FCBAccountLoginController.m */; };
+		2E8F8F4229B9C1430026E256 /* FCBTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F8F4129B9C1430026E256 /* FCBTextFieldView.m */; };
+		2E8F8F4529BA31480026E256 /* FCBForgetPwdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F8F4429BA31470026E256 /* FCBForgetPwdController.m */; };
+		2E8F8F4829BA33650026E256 /* FCBMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F8F4729BA33650026E256 /* FCBMainButton.m */; };
+		2E8F8F4B29BA3F720026E256 /* FCBInputNewPwdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F8F4A29BA3F720026E256 /* FCBInputNewPwdController.m */; };
+		2E9510F129B31F260026AAD6 /* FCBListContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9510F029B31F260026AAD6 /* FCBListContentView.m */; };
+		2E9510F429B321780026AAD6 /* FCBListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9510F329B321780026AAD6 /* FCBListCollectionViewCell.m */; };
+		2EB72E1729D44B0100F5756A /* UIButton+FCBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB72E1629D44B0100F5756A /* UIButton+FCBExtension.m */; };
+		2EDDCFC429BEC17A00D12770 /* FCBVerificationCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDDCFC329BEC17A00D12770 /* FCBVerificationCodeView.m */; };
+		2EDDD2F629C0483D00D12770 /* FCBRequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDDD2F529C0483D00D12770 /* FCBRequestHelper.m */; };
+		2EDDD2F929C0581D00D12770 /* FCBCaptchaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDDD2F829C0581D00D12770 /* FCBCaptchaView.m */; };
+		2EDDD2FC29C0D19800D12770 /* areaCode.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EDDD2FB29C0D19800D12770 /* areaCode.json */; };
+		2EDDD2FF29C1575000D12770 /* FCBAreaCodeSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDDD2FE29C1575000D12770 /* FCBAreaCodeSelectController.m */; };
+		2EDDD30329C1625500D12770 /* FCBAreaCodeSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDDD30229C1625500D12770 /* FCBAreaCodeSelectCell.m */; };
+		2EDDD30629C174A200D12770 /* FCBPhoneTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDDD30529C174A200D12770 /* FCBPhoneTextFieldView.m */; };
+		2EDDD30929C23AC700D12770 /* FCBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDDD30829C23AC700D12770 /* FCBNavigationController.m */; };
+		DF3F2726F2DD8C010767C9CB /* libPods-FinClipBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E452765C13A1DA2BB0D5482 /* libPods-FinClipBrowser.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E2AFCDB29AC4F780056C21B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E2AFCB729AC4F750056C21B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E2AFCBE29AC4F760056C21B;
+			remoteInfo = FinClipBrowser;
+		};
+		2E2AFCE529AC4F780056C21B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E2AFCB729AC4F750056C21B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E2AFCBE29AC4F760056C21B;
+			remoteInfo = FinClipBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BDBEF7A2B6F9A8800314031 /* FinClipBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FinClipBrowser.bundle; sourceTree = "<group>"; };
+		2BDBEF7F2B6F9CBE00314031 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		2BDBEF892B6F9D4B00314031 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2BDBEF8B2B6F9D4D00314031 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2E2AFCBF29AC4F760056C21B /* FinClipBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinClipBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2AFCC229AC4F760056C21B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E2AFCC329AC4F760056C21B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E2AFCC829AC4F760056C21B /* FCBPrivacyAgreementController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBPrivacyAgreementController.h; sourceTree = "<group>"; };
+		2E2AFCC929AC4F760056C21B /* FCBPrivacyAgreementController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBPrivacyAgreementController.m; sourceTree = "<group>"; };
+		2E2AFCCE29AC4F770056C21B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E2AFCD129AC4F770056C21B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E2AFCD329AC4F770056C21B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E2AFCD429AC4F770056C21B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E2AFCDA29AC4F780056C21B /* FinClipBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinClipBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2AFCDE29AC4F780056C21B /* FinClipBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinClipBrowserTests.m; sourceTree = "<group>"; };
+		2E2AFCE429AC4F780056C21B /* FinClipBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinClipBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2AFCE829AC4F780056C21B /* FinClipBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinClipBrowserUITests.m; sourceTree = "<group>"; };
+		2E2AFCEA29AC4F780056C21B /* FinClipBrowserUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinClipBrowserUITestsLaunchTests.m; sourceTree = "<group>"; };
+		2E2AFCF729AC5F5C0056C21B /* FCBMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBMainController.h; sourceTree = "<group>"; };
+		2E2AFCF829AC5F5C0056C21B /* FCBMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBMainController.m; sourceTree = "<group>"; };
+		2E2AFCFA29ADCB760056C21B /* FCBUITool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBUITool.h; sourceTree = "<group>"; };
+		2E2AFCFB29ADCB760056C21B /* FCBUITool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBUITool.m; sourceTree = "<group>"; };
+		2E2AFCFD29ADD3460056C21B /* FCBWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBWebViewController.h; sourceTree = "<group>"; };
+		2E2AFCFE29ADD3460056C21B /* FCBWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBWebViewController.m; sourceTree = "<group>"; };
+		2E2AFD0029ADD8780056C21B /* FCBConfigServerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBConfigServerController.h; sourceTree = "<group>"; };
+		2E2AFD0129ADD8780056C21B /* FCBConfigServerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBConfigServerController.m; sourceTree = "<group>"; };
+		2E2AFD0329ADDFA70056C21B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		2E2AFD0729AE0E640056C21B /* FCBQRCodeScanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCBQRCodeScanController.m; sourceTree = "<group>"; };
+		2E2AFD0829AE0E640056C21B /* FCBQRCodeScanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCBQRCodeScanController.h; sourceTree = "<group>"; };
+		2E2AFD0A29AE0E640056C21B /* FCQRScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCQRScanView.m; sourceTree = "<group>"; };
+		2E2AFD0B29AE0E640056C21B /* FCQRScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCQRScanView.h; sourceTree = "<group>"; };
+		2E4BF8B229BB1E5300AB3550 /* FCBSMSLoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBSMSLoginController.h; sourceTree = "<group>"; };
+		2E4BF8B329BB1E5300AB3550 /* FCBSMSLoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBSMSLoginController.m; sourceTree = "<group>"; };
+		2E4BF8B529BB237F00AB3550 /* FCBVerificationCodeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBVerificationCodeController.h; sourceTree = "<group>"; };
+		2E4BF8B629BB237F00AB3550 /* FCBVerificationCodeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBVerificationCodeController.m; sourceTree = "<group>"; };
+		2E87176329AFB12A00F7C635 /* FCBDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBDefine.h; sourceTree = "<group>"; };
+		2E87176429AFB46600F7C635 /* FCBURLSessionHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBURLSessionHelper.h; sourceTree = "<group>"; };
+		2E87176529AFB46600F7C635 /* FCBURLSessionHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBURLSessionHelper.m; sourceTree = "<group>"; };
+		2E87176729AFB7CF00F7C635 /* FCBDefine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBDefine.m; sourceTree = "<group>"; };
+		2E87176B29AFBD5900F7C635 /* FCBLoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBLoginController.h; sourceTree = "<group>"; };
+		2E87176C29AFBD5900F7C635 /* FCBLoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBLoginController.m; sourceTree = "<group>"; };
+		2E8F8F2229B635CF0026E256 /* NSString+FCBExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+FCBExtension.h"; sourceTree = "<group>"; };
+		2E8F8F2329B635CF0026E256 /* NSString+FCBExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+FCBExtension.m"; sourceTree = "<group>"; };
+		2E8F8F2629B734010026E256 /* FCBUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBUserInfo.h; sourceTree = "<group>"; };
+		2E8F8F2729B734010026E256 /* FCBUserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBUserInfo.m; sourceTree = "<group>"; };
+		2E8F8F2A29B73A8A0026E256 /* FCBMiniProgramModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBMiniProgramModel.h; sourceTree = "<group>"; };
+		2E8F8F2B29B73A8A0026E256 /* FCBMiniProgramModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBMiniProgramModel.m; sourceTree = "<group>"; };
+		2E8F8F2E29B7673A0026E256 /* FCBAppletHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBAppletHelper.h; sourceTree = "<group>"; };
+		2E8F8F2F29B7673A0026E256 /* FCBAppletHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBAppletHelper.m; sourceTree = "<group>"; };
+		2E8F8F3129B86DF50026E256 /* FCBAPP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBAPP.h; sourceTree = "<group>"; };
+		2E8F8F3229B86DF50026E256 /* FCBAPP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBAPP.m; sourceTree = "<group>"; };
+		2E8F8F3A29B9B3B70026E256 /* FCBAccountLoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBAccountLoginController.h; sourceTree = "<group>"; };
+		2E8F8F3B29B9B3B70026E256 /* FCBAccountLoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBAccountLoginController.m; sourceTree = "<group>"; };
+		2E8F8F4029B9C1430026E256 /* FCBTextFieldView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBTextFieldView.h; sourceTree = "<group>"; };
+		2E8F8F4129B9C1430026E256 /* FCBTextFieldView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBTextFieldView.m; sourceTree = "<group>"; };
+		2E8F8F4329BA31470026E256 /* FCBForgetPwdController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBForgetPwdController.h; sourceTree = "<group>"; };
+		2E8F8F4429BA31470026E256 /* FCBForgetPwdController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBForgetPwdController.m; sourceTree = "<group>"; };
+		2E8F8F4629BA33640026E256 /* FCBMainButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBMainButton.h; sourceTree = "<group>"; };
+		2E8F8F4729BA33650026E256 /* FCBMainButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBMainButton.m; sourceTree = "<group>"; };
+		2E8F8F4929BA3F720026E256 /* FCBInputNewPwdController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBInputNewPwdController.h; sourceTree = "<group>"; };
+		2E8F8F4A29BA3F720026E256 /* FCBInputNewPwdController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBInputNewPwdController.m; sourceTree = "<group>"; };
+		2E9510EF29B31F260026AAD6 /* FCBListContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBListContentView.h; sourceTree = "<group>"; };
+		2E9510F029B31F260026AAD6 /* FCBListContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBListContentView.m; sourceTree = "<group>"; };
+		2E9510F229B321780026AAD6 /* FCBListCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBListCollectionViewCell.h; sourceTree = "<group>"; };
+		2E9510F329B321780026AAD6 /* FCBListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBListCollectionViewCell.m; sourceTree = "<group>"; };
+		2EB72E1529D44B0100F5756A /* UIButton+FCBExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+FCBExtension.h"; sourceTree = "<group>"; };
+		2EB72E1629D44B0100F5756A /* UIButton+FCBExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FCBExtension.m"; sourceTree = "<group>"; };
+		2EDDCFC229BEC17A00D12770 /* FCBVerificationCodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBVerificationCodeView.h; sourceTree = "<group>"; };
+		2EDDCFC329BEC17A00D12770 /* FCBVerificationCodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBVerificationCodeView.m; sourceTree = "<group>"; };
+		2EDDD2F429C0483D00D12770 /* FCBRequestHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBRequestHelper.h; sourceTree = "<group>"; };
+		2EDDD2F529C0483D00D12770 /* FCBRequestHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBRequestHelper.m; sourceTree = "<group>"; };
+		2EDDD2F729C0581D00D12770 /* FCBCaptchaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBCaptchaView.h; sourceTree = "<group>"; };
+		2EDDD2F829C0581D00D12770 /* FCBCaptchaView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBCaptchaView.m; sourceTree = "<group>"; };
+		2EDDD2FB29C0D19800D12770 /* areaCode.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = areaCode.json; sourceTree = "<group>"; };
+		2EDDD2FD29C1575000D12770 /* FCBAreaCodeSelectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBAreaCodeSelectController.h; sourceTree = "<group>"; };
+		2EDDD2FE29C1575000D12770 /* FCBAreaCodeSelectController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBAreaCodeSelectController.m; sourceTree = "<group>"; };
+		2EDDD30129C1625500D12770 /* FCBAreaCodeSelectCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBAreaCodeSelectCell.h; sourceTree = "<group>"; };
+		2EDDD30229C1625500D12770 /* FCBAreaCodeSelectCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBAreaCodeSelectCell.m; sourceTree = "<group>"; };
+		2EDDD30429C174A200D12770 /* FCBPhoneTextFieldView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBPhoneTextFieldView.h; sourceTree = "<group>"; };
+		2EDDD30529C174A200D12770 /* FCBPhoneTextFieldView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBPhoneTextFieldView.m; sourceTree = "<group>"; };
+		2EDDD30729C23AC700D12770 /* FCBNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBNavigationController.h; sourceTree = "<group>"; };
+		2EDDD30829C23AC700D12770 /* FCBNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBNavigationController.m; sourceTree = "<group>"; };
+		49C01B45E94825615C68EDB2 /* Pods-FinClipBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinClipBrowser.debug.xcconfig"; path = "Target Support Files/Pods-FinClipBrowser/Pods-FinClipBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		6E452765C13A1DA2BB0D5482 /* libPods-FinClipBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FinClipBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7582FCC98F12CCCE75826B3 /* Pods-FinClipBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinClipBrowser.release.xcconfig"; path = "Target Support Files/Pods-FinClipBrowser/Pods-FinClipBrowser.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E2AFCBC29AC4F760056C21B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2AFD0429ADDFA70056C21B /* WebKit.framework in Frameworks */,
+				DF3F2726F2DD8C010767C9CB /* libPods-FinClipBrowser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2AFCD729AC4F780056C21B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2AFCE129AC4F780056C21B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D31339565A0B93C39E46543 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E2AFD0329ADDFA70056C21B /* WebKit.framework */,
+				6E452765C13A1DA2BB0D5482 /* libPods-FinClipBrowser.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BDBEF792B6F99EB00314031 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2BDBEF7A2B6F9A8800314031 /* FinClipBrowser.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		2E2AFCB629AC4F750056C21B = {
+			isa = PBXGroup;
+			children = (
+				2BDBEF8A2B6F9D4B00314031 /* Localizable.strings */,
+				2E2AFCC129AC4F760056C21B /* FinClipBrowser */,
+				2E2AFCDD29AC4F780056C21B /* FinClipBrowserTests */,
+				2E2AFCE729AC4F780056C21B /* FinClipBrowserUITests */,
+				2E2AFCC029AC4F760056C21B /* Products */,
+				33D89C78C91131C9F5E58DAB /* Pods */,
+				1D31339565A0B93C39E46543 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E2AFCC029AC4F760056C21B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E2AFCBF29AC4F760056C21B /* FinClipBrowser.app */,
+				2E2AFCDA29AC4F780056C21B /* FinClipBrowserTests.xctest */,
+				2E2AFCE429AC4F780056C21B /* FinClipBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E2AFCC129AC4F760056C21B /* FinClipBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				2BDBEF792B6F99EB00314031 /* Resource */,
+				2EF409D929D1385B000C272F /* Application */,
+				2E9510EC29B31D020026AAD6 /* Main */,
+				2E87176929AFBD2700F7C635 /* Login */,
+				2E2AFD0529AE0E640056C21B /* Scan */,
+				2EAC429729C3637300BA3A6C /* Applet */,
+				2EF409D729CD8515000C272F /* Helper */,
+				2EF409D829D1360C000C272F /* Privacy */,
+				2E2AFCCE29AC4F770056C21B /* Assets.xcassets */,
+				2E2AFCD029AC4F770056C21B /* LaunchScreen.storyboard */,
+				2E2AFCD329AC4F770056C21B /* Info.plist */,
+				2E2AFCD429AC4F770056C21B /* main.m */,
+			);
+			path = FinClipBrowser;
+			sourceTree = "<group>";
+		};
+		2E2AFCDD29AC4F780056C21B /* FinClipBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E2AFCDE29AC4F780056C21B /* FinClipBrowserTests.m */,
+			);
+			path = FinClipBrowserTests;
+			sourceTree = "<group>";
+		};
+		2E2AFCE729AC4F780056C21B /* FinClipBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E2AFCE829AC4F780056C21B /* FinClipBrowserUITests.m */,
+				2E2AFCEA29AC4F780056C21B /* FinClipBrowserUITestsLaunchTests.m */,
+			);
+			path = FinClipBrowserUITests;
+			sourceTree = "<group>";
+		};
+		2E2AFD0529AE0E640056C21B /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				2E2AFD0629AE0E640056C21B /* Controller */,
+				2E2AFD0929AE0E640056C21B /* View */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		2E2AFD0629AE0E640056C21B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E2AFD0829AE0E640056C21B /* FCBQRCodeScanController.h */,
+				2E2AFD0729AE0E640056C21B /* FCBQRCodeScanController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2E2AFD0929AE0E640056C21B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E2AFD0B29AE0E640056C21B /* FCQRScanView.h */,
+				2E2AFD0A29AE0E640056C21B /* FCQRScanView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E87176929AFBD2700F7C635 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2E87176A29AFBD3000F7C635 /* Controller */,
+				2EDDD30029C1621C00D12770 /* View */,
+				2E8F8F2529B7339F0026E256 /* Model */,
+				2EDDD2FA29C0D15700D12770 /* Resources */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2E87176A29AFBD3000F7C635 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E2AFD0029ADD8780056C21B /* FCBConfigServerController.h */,
+				2E2AFD0129ADD8780056C21B /* FCBConfigServerController.m */,
+				2E87176B29AFBD5900F7C635 /* FCBLoginController.h */,
+				2E87176C29AFBD5900F7C635 /* FCBLoginController.m */,
+				2E8F8F3A29B9B3B70026E256 /* FCBAccountLoginController.h */,
+				2E8F8F3B29B9B3B70026E256 /* FCBAccountLoginController.m */,
+				2E8F8F4329BA31470026E256 /* FCBForgetPwdController.h */,
+				2E8F8F4429BA31470026E256 /* FCBForgetPwdController.m */,
+				2E8F8F4929BA3F720026E256 /* FCBInputNewPwdController.h */,
+				2E8F8F4A29BA3F720026E256 /* FCBInputNewPwdController.m */,
+				2E4BF8B229BB1E5300AB3550 /* FCBSMSLoginController.h */,
+				2E4BF8B329BB1E5300AB3550 /* FCBSMSLoginController.m */,
+				2E4BF8B529BB237F00AB3550 /* FCBVerificationCodeController.h */,
+				2E4BF8B629BB237F00AB3550 /* FCBVerificationCodeController.m */,
+				2EDDD2FD29C1575000D12770 /* FCBAreaCodeSelectController.h */,
+				2EDDD2FE29C1575000D12770 /* FCBAreaCodeSelectController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2E8F8F2529B7339F0026E256 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E8F8F2629B734010026E256 /* FCBUserInfo.h */,
+				2E8F8F2729B734010026E256 /* FCBUserInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E8F8F2929B73A3D0026E256 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E8F8F2A29B73A8A0026E256 /* FCBMiniProgramModel.h */,
+				2E8F8F2B29B73A8A0026E256 /* FCBMiniProgramModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E9510EC29B31D020026AAD6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2E9510ED29B31D0F0026AAD6 /* Controller */,
+				2E9510EE29B31D1D0026AAD6 /* View */,
+				2E8F8F2929B73A3D0026E256 /* Model */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2E9510ED29B31D0F0026AAD6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E2AFCF729AC5F5C0056C21B /* FCBMainController.h */,
+				2E2AFCF829AC5F5C0056C21B /* FCBMainController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2E9510EE29B31D1D0026AAD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E9510EF29B31F260026AAD6 /* FCBListContentView.h */,
+				2E9510F029B31F260026AAD6 /* FCBListContentView.m */,
+				2E9510F229B321780026AAD6 /* FCBListCollectionViewCell.h */,
+				2E9510F329B321780026AAD6 /* FCBListCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2EAC429729C3637300BA3A6C /* Applet */ = {
+			isa = PBXGroup;
+			children = (
+				2E8F8F2E29B7673A0026E256 /* FCBAppletHelper.h */,
+				2E8F8F2F29B7673A0026E256 /* FCBAppletHelper.m */,
+			);
+			path = Applet;
+			sourceTree = "<group>";
+		};
+		2EDDD2FA29C0D15700D12770 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2EDDD2FB29C0D19800D12770 /* areaCode.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2EDDD30029C1621C00D12770 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2EDDD2F729C0581D00D12770 /* FCBCaptchaView.h */,
+				2EDDD2F829C0581D00D12770 /* FCBCaptchaView.m */,
+				2EDDCFC229BEC17A00D12770 /* FCBVerificationCodeView.h */,
+				2EDDCFC329BEC17A00D12770 /* FCBVerificationCodeView.m */,
+				2E8F8F4029B9C1430026E256 /* FCBTextFieldView.h */,
+				2E8F8F4129B9C1430026E256 /* FCBTextFieldView.m */,
+				2EDDD30429C174A200D12770 /* FCBPhoneTextFieldView.h */,
+				2EDDD30529C174A200D12770 /* FCBPhoneTextFieldView.m */,
+				2E8F8F4629BA33640026E256 /* FCBMainButton.h */,
+				2E8F8F4729BA33650026E256 /* FCBMainButton.m */,
+				2EDDD30129C1625500D12770 /* FCBAreaCodeSelectCell.h */,
+				2EDDD30229C1625500D12770 /* FCBAreaCodeSelectCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2EF409D729CD8515000C272F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2E87176429AFB46600F7C635 /* FCBURLSessionHelper.h */,
+				2E87176529AFB46600F7C635 /* FCBURLSessionHelper.m */,
+				2EDDD2F429C0483D00D12770 /* FCBRequestHelper.h */,
+				2EDDD2F529C0483D00D12770 /* FCBRequestHelper.m */,
+				2E2AFCFA29ADCB760056C21B /* FCBUITool.h */,
+				2E2AFCFB29ADCB760056C21B /* FCBUITool.m */,
+				2E8F8F2229B635CF0026E256 /* NSString+FCBExtension.h */,
+				2E8F8F2329B635CF0026E256 /* NSString+FCBExtension.m */,
+				2EB72E1529D44B0100F5756A /* UIButton+FCBExtension.h */,
+				2EB72E1629D44B0100F5756A /* UIButton+FCBExtension.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2EF409D829D1360C000C272F /* Privacy */ = {
+			isa = PBXGroup;
+			children = (
+				2E2AFCC829AC4F760056C21B /* FCBPrivacyAgreementController.h */,
+				2E2AFCC929AC4F760056C21B /* FCBPrivacyAgreementController.m */,
+			);
+			path = Privacy;
+			sourceTree = "<group>";
+		};
+		2EF409D929D1385B000C272F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2E2AFCC229AC4F760056C21B /* AppDelegate.h */,
+				2E2AFCC329AC4F760056C21B /* AppDelegate.m */,
+				2E8F8F3129B86DF50026E256 /* FCBAPP.h */,
+				2E8F8F3229B86DF50026E256 /* FCBAPP.m */,
+				2E87176329AFB12A00F7C635 /* FCBDefine.h */,
+				2E87176729AFB7CF00F7C635 /* FCBDefine.m */,
+				2E2AFCFD29ADD3460056C21B /* FCBWebViewController.h */,
+				2E2AFCFE29ADD3460056C21B /* FCBWebViewController.m */,
+				2EDDD30729C23AC700D12770 /* FCBNavigationController.h */,
+				2EDDD30829C23AC700D12770 /* FCBNavigationController.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		33D89C78C91131C9F5E58DAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49C01B45E94825615C68EDB2 /* Pods-FinClipBrowser.debug.xcconfig */,
+				E7582FCC98F12CCCE75826B3 /* Pods-FinClipBrowser.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E2AFCBE29AC4F760056C21B /* FinClipBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E2AFCEE29AC4F780056C21B /* Build configuration list for PBXNativeTarget "FinClipBrowser" */;
+			buildPhases = (
+				8F22AE522C7511FB52FA1CA5 /* [CP] Check Pods Manifest.lock */,
+				2E2AFCBB29AC4F760056C21B /* Sources */,
+				2E2AFCBC29AC4F760056C21B /* Frameworks */,
+				2E2AFCBD29AC4F760056C21B /* Resources */,
+				680C2E9551967F1B8BB34B7F /* [CP] Copy Pods Resources */,
+				3B758A059E0A7E7DD57E864C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinClipBrowser;
+			productName = FinClipBrowser;
+			productReference = 2E2AFCBF29AC4F760056C21B /* FinClipBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E2AFCD929AC4F780056C21B /* FinClipBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E2AFCF129AC4F780056C21B /* Build configuration list for PBXNativeTarget "FinClipBrowserTests" */;
+			buildPhases = (
+				2E2AFCD629AC4F780056C21B /* Sources */,
+				2E2AFCD729AC4F780056C21B /* Frameworks */,
+				2E2AFCD829AC4F780056C21B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E2AFCDC29AC4F780056C21B /* PBXTargetDependency */,
+			);
+			name = FinClipBrowserTests;
+			productName = FinClipBrowserTests;
+			productReference = 2E2AFCDA29AC4F780056C21B /* FinClipBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E2AFCE329AC4F780056C21B /* FinClipBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E2AFCF429AC4F780056C21B /* Build configuration list for PBXNativeTarget "FinClipBrowserUITests" */;
+			buildPhases = (
+				2E2AFCE029AC4F780056C21B /* Sources */,
+				2E2AFCE129AC4F780056C21B /* Frameworks */,
+				2E2AFCE229AC4F780056C21B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E2AFCE629AC4F780056C21B /* PBXTargetDependency */,
+			);
+			name = FinClipBrowserUITests;
+			productName = FinClipBrowserUITests;
+			productReference = 2E2AFCE429AC4F780056C21B /* FinClipBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E2AFCB729AC4F750056C21B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = FCB;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2E2AFCBE29AC4F760056C21B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					2E2AFCD929AC4F780056C21B = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 2E2AFCBE29AC4F760056C21B;
+					};
+					2E2AFCE329AC4F780056C21B = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 2E2AFCBE29AC4F760056C21B;
+					};
+				};
+			};
+			buildConfigurationList = 2E2AFCBA29AC4F750056C21B /* Build configuration list for PBXProject "FinClipBrowser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 2E2AFCB629AC4F750056C21B;
+			productRefGroup = 2E2AFCC029AC4F760056C21B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E2AFCBE29AC4F760056C21B /* FinClipBrowser */,
+				2E2AFCD929AC4F780056C21B /* FinClipBrowserTests */,
+				2E2AFCE329AC4F780056C21B /* FinClipBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E2AFCBD29AC4F760056C21B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDBEF7B2B6F9A8800314031 /* FinClipBrowser.bundle in Resources */,
+				2BDBEF882B6F9D4B00314031 /* Localizable.strings in Resources */,
+				2E2AFCD229AC4F770056C21B /* LaunchScreen.storyboard in Resources */,
+				2EDDD2FC29C0D19800D12770 /* areaCode.json in Resources */,
+				2E2AFCCF29AC4F770056C21B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2AFCD829AC4F780056C21B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2AFCE229AC4F780056C21B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B758A059E0A7E7DD57E864C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinClipBrowser/Pods-FinClipBrowser-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinClipBrowser/Pods-FinClipBrowser-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FinClipBrowser/Pods-FinClipBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		680C2E9551967F1B8BB34B7F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinClipBrowser/Pods-FinClipBrowser-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinClipBrowser/Pods-FinClipBrowser-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FinClipBrowser/Pods-FinClipBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F22AE522C7511FB52FA1CA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FinClipBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E2AFCBB29AC4F760056C21B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EDDCFC429BEC17A00D12770 /* FCBVerificationCodeView.m in Sources */,
+				2E87176629AFB46600F7C635 /* FCBURLSessionHelper.m in Sources */,
+				2E8F8F4B29BA3F720026E256 /* FCBInputNewPwdController.m in Sources */,
+				2EB72E1729D44B0100F5756A /* UIButton+FCBExtension.m in Sources */,
+				2E2AFCFC29ADCB760056C21B /* FCBUITool.m in Sources */,
+				2E2AFCFF29ADD3460056C21B /* FCBWebViewController.m in Sources */,
+				2E87176829AFB7CF00F7C635 /* FCBDefine.m in Sources */,
+				2E9510F429B321780026AAD6 /* FCBListCollectionViewCell.m in Sources */,
+				2E2AFD0C29AE0E640056C21B /* FCBQRCodeScanController.m in Sources */,
+				2E9510F129B31F260026AAD6 /* FCBListContentView.m in Sources */,
+				2EDDD30929C23AC700D12770 /* FCBNavigationController.m in Sources */,
+				2E8F8F3C29B9B3B70026E256 /* FCBAccountLoginController.m in Sources */,
+				2E2AFCCA29AC4F760056C21B /* FCBPrivacyAgreementController.m in Sources */,
+				2E2AFD0D29AE0E640056C21B /* FCQRScanView.m in Sources */,
+				2E8F8F3329B86DF50026E256 /* FCBAPP.m in Sources */,
+				2EDDD30329C1625500D12770 /* FCBAreaCodeSelectCell.m in Sources */,
+				2EDDD30629C174A200D12770 /* FCBPhoneTextFieldView.m in Sources */,
+				2E4BF8B729BB237F00AB3550 /* FCBVerificationCodeController.m in Sources */,
+				2E8F8F4229B9C1430026E256 /* FCBTextFieldView.m in Sources */,
+				2E4BF8B429BB1E5300AB3550 /* FCBSMSLoginController.m in Sources */,
+				2E8F8F4529BA31480026E256 /* FCBForgetPwdController.m in Sources */,
+				2E2AFCC429AC4F760056C21B /* AppDelegate.m in Sources */,
+				2E2AFCF929AC5F5C0056C21B /* FCBMainController.m in Sources */,
+				2EDDD2F629C0483D00D12770 /* FCBRequestHelper.m in Sources */,
+				2EDDD2F929C0581D00D12770 /* FCBCaptchaView.m in Sources */,
+				2E8F8F2C29B73A8A0026E256 /* FCBMiniProgramModel.m in Sources */,
+				2E8F8F2429B635CF0026E256 /* NSString+FCBExtension.m in Sources */,
+				2E2AFD0229ADD8780056C21B /* FCBConfigServerController.m in Sources */,
+				2E2AFCD529AC4F770056C21B /* main.m in Sources */,
+				2EDDD2FF29C1575000D12770 /* FCBAreaCodeSelectController.m in Sources */,
+				2E8F8F3029B7673A0026E256 /* FCBAppletHelper.m in Sources */,
+				2E8F8F2829B734010026E256 /* FCBUserInfo.m in Sources */,
+				2E8F8F4829BA33650026E256 /* FCBMainButton.m in Sources */,
+				2E87176D29AFBD5900F7C635 /* FCBLoginController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2AFCD629AC4F780056C21B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2AFCDF29AC4F780056C21B /* FinClipBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2AFCE029AC4F780056C21B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2AFCE929AC4F780056C21B /* FinClipBrowserUITests.m in Sources */,
+				2E2AFCEB29AC4F780056C21B /* FinClipBrowserUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E2AFCDC29AC4F780056C21B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E2AFCBE29AC4F760056C21B /* FinClipBrowser */;
+			targetProxy = 2E2AFCDB29AC4F780056C21B /* PBXContainerItemProxy */;
+		};
+		2E2AFCE629AC4F780056C21B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E2AFCBE29AC4F760056C21B /* FinClipBrowser */;
+			targetProxy = 2E2AFCE529AC4F780056C21B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BDBEF8A2B6F9D4B00314031 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BDBEF892B6F9D4B00314031 /* zh-Hans */,
+				2BDBEF8B2B6F9D4D00314031 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		2E2AFCD029AC4F770056C21B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E2AFCD129AC4F770056C21B /* Base */,
+				2BDBEF7F2B6F9CBE00314031 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E2AFCEC29AC4F780056C21B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E2AFCED29AC4F780056C21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E2AFCEF29AC4F780056C21B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C01B45E94825615C68EDB2 /* Pods-FinClipBrowser.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = 9QCKYFU5M4;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FinClipBrowser/OneAuth/TYRZUISDK",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinClipBrowser/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "FinClip Browser";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "需要您的同意,才能访问媒体资料库";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "需要您授权蓝牙权限，才能使用蓝牙搜索蓝牙设备";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "需要您授权蓝牙权限，才能使用蓝牙搜索蓝牙设备";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "需要您授权日历权限，才能往日历添加新的日程";
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要您授权摄像机权限，才能扫码二维码或拍摄图片";
+				INFOPLIST_KEY_NSContactsUsageDescription = "需要您授权同步通讯录权限，才能智能补全客户资料";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "需要您授权定位权限，才能在使用期间访问位置";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "需要您授权定位权限，才能在使用期间访问位置";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "需要您授权定位权限，才能在使用期间访问位置";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要您授权麦克风权限，才能使用录音功能";
+				INFOPLIST_KEY_NSMotionUsageDescription = "需要您的同意,才能访问运动与健身";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "需要您授权相册权限，才能保存图片";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "需要您授权相册权限，才能选择相册图片，用于识别图片中的二维码或者展示图片";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "需要您的同意,才能使用语音识别功能";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.finogeeks.finclip.openbrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E2AFCF029AC4F780056C21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7582FCC98F12CCCE75826B3 /* Pods-FinClipBrowser.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = 9QCKYFU5M4;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FinClipBrowser/OneAuth/TYRZUISDK",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinClipBrowser/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "FinClip Browser";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "需要您的同意,才能访问媒体资料库";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "需要您授权蓝牙权限，才能使用蓝牙搜索蓝牙设备";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "需要您授权蓝牙权限，才能使用蓝牙搜索蓝牙设备";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "需要您授权日历权限，才能往日历添加新的日程";
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要您授权摄像机权限，才能扫码二维码或拍摄图片";
+				INFOPLIST_KEY_NSContactsUsageDescription = "需要您授权同步通讯录权限，才能智能补全客户资料";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "需要您授权定位权限，才能在使用期间访问位置";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "需要您授权定位权限，才能在使用期间访问位置";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "需要您授权定位权限，才能在使用期间访问位置";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要您授权麦克风权限，才能使用录音功能";
+				INFOPLIST_KEY_NSMotionUsageDescription = "需要您的同意,才能访问运动与健身";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "需要您授权相册权限，才能保存图片";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "需要您授权相册权限，才能选择相册图片，用于识别图片中的二维码或者展示图片";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "需要您的同意,才能使用语音识别功能";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.finogeeks.finclip.openbrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E2AFCF229AC4F780056C21B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = XB9QC8RL2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.finogeeks.FinClipBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinClipBrowser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinClipBrowser";
+			};
+			name = Debug;
+		};
+		2E2AFCF329AC4F780056C21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = XB9QC8RL2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.finogeeks.FinClipBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinClipBrowser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinClipBrowser";
+			};
+			name = Release;
+		};
+		2E2AFCF529AC4F780056C21B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = XB9QC8RL2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.finogeeks.FinClipBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinClipBrowser;
+			};
+			name = Debug;
+		};
+		2E2AFCF629AC4F780056C21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = XB9QC8RL2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.finogeeks.FinClipBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinClipBrowser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E2AFCBA29AC4F750056C21B /* Build configuration list for PBXProject "FinClipBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2AFCEC29AC4F780056C21B /* Debug */,
+				2E2AFCED29AC4F780056C21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E2AFCEE29AC4F780056C21B /* Build configuration list for PBXNativeTarget "FinClipBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2AFCEF29AC4F780056C21B /* Debug */,
+				2E2AFCF029AC4F780056C21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E2AFCF129AC4F780056C21B /* Build configuration list for PBXNativeTarget "FinClipBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2AFCF229AC4F780056C21B /* Debug */,
+				2E2AFCF329AC4F780056C21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E2AFCF429AC4F780056C21B /* Build configuration list for PBXNativeTarget "FinClipBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2AFCF529AC4F780056C21B /* Debug */,
+				2E2AFCF629AC4F780056C21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E2AFCB729AC4F750056C21B /* Project object */;
+}
